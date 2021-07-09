@@ -14,8 +14,8 @@ import {
 import emailIcon from "../../Pictures/email-logo.png";
 import githubIcon from "../../Pictures/github-logo.png";
 import linkedInIcon from "../../Pictures/linkedin-logo.png";
-import headshot from "../../Pictures/selfie.jpeg";
-import resume from "../../Pictures/Web-Dev-Resume.pdf";
+import headshot from "../../Pictures/emilyheadshot.jpeg";
+import resume from "../../Pictures/Resume-emily.png";
 import "./style.css";
 import MediaQuery, { useMediaQuery } from "react-responsive";
 
@@ -38,7 +38,7 @@ const Contact = (props) => {
             <Card className="w-50 mt-3">
               <CardHeader tag="h3">
                 <Row>
-                  <Col className="ml-4">Joseph Young</Col>
+                  <Col className="ml-4">Emily Pozzi</Col>
                   <Button
                     color="secondary"
                     className="mr-5"
@@ -63,17 +63,17 @@ const Contact = (props) => {
                       Software Engineer
                     </CardTitle>
                     <hr className="m-3" />
-                    <NavLink href="mailto:Joseph.Young.Dev@gmail.com">
+                    <NavLink href="mailto:emilyepozzi@gmail.com">
                       <img className="logo" src={emailIcon} alt="Logo" /> :
-                      Joseph Young
+                      Emily Pozzi
                     </NavLink>
-                    <NavLink href="https://www.linkedin.com/in/joe-young-8a499a18a/">
+                    <NavLink href="https://github.com/emilyepozzi">
                       <img className="logo" src={linkedInIcon} alt="Logo" /> :
-                      Joseph Young
+                      Emily Pozzi
                     </NavLink>
-                    <NavLink href="https://github.com/JYoung32">
+                    <NavLink href="https://github.com/emilyepozzi">
                       <img className="logo" src={githubIcon} alt="Logo" /> :
-                      JYoung32
+                      emilyepozzi
                     </NavLink>
                   </Col>
                 </Row>
@@ -89,7 +89,7 @@ const Contact = (props) => {
           <Row className="d-flex justify-content-center">
             <Card className="m-3">
               <CardHeader tag="h3">
-                <Row className="justify-content-center">Joseph Young</Row>
+                <Row className="justify-content-center">Emily Pozzi</Row>
               </CardHeader>
               <CardBody>
                 <Row className="justify-content-center">
@@ -115,17 +115,17 @@ const Contact = (props) => {
                     >
                       Resume
                     </Button>
-                    <NavLink href="mailto:Joseph.Young.Dev@gmail.com">
+                    <NavLink href="mailto:emilyepozzi@gmail.com">
                       <img className="logo" src={emailIcon} alt="Logo" /> :
-                      Joseph Young
+                      Emily Pozzi
                     </NavLink>
-                    <NavLink href="https://www.linkedin.com/in/joe-young-8a499a18a/">
+                    <NavLink href="https://github.com/emilyepozzi">
                       <img className="logo" src={linkedInIcon} alt="Logo" /> :
-                      Joseph Young
+                      Emily Pozzi 
                     </NavLink>
-                    <NavLink href="https://github.com/JYoung32">
+                    <NavLink href="https://github.com/emilyepozzi">
                       <img className="logo" src={githubIcon} alt="Logo" /> :
-                      JYoung32
+                      emilyepozzi
                     </NavLink>
                   </Col>
                 </Row>

@@ -12,12 +12,12 @@ class About extends React.Component {
   render() {
     return (
       <Jumbotron className="m-3 text-center">
-        <h1 className="display-4">Hello, world!</h1>
-        <p className="lead">I'm Joseph Young, a software developer.</p>
+        <h1 className="display-4">Heyo!</h1>
+        <p className="lead">I'm Emily Pozzi, an aspiring Front End Developer.</p>
         <hr className="my-4" />
         <Row className="justify-content-center">
           <Col>
-            <p className="">Passionate about approaching programming challenges from multiple viewpoints and collaborating with others to provide purposeful and memorable web applications. Eager to leverage skills in the future as part of a fast-paced, quality-driven team in order to build better, innovative, and memorable experiences on the web.</p>
+            <p className="">I am extremely passionate about the art of web development in all its forms.</p>
           </Col>
         </Row>
         <hr className="my-4" />
