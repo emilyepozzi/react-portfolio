@@ -5,7 +5,6 @@ import nodejsLogo from "../Pictures/node-js-logo.png";
 import expressLogo from "../Pictures/express-logo.png";
 import javascriptLogo from "../Pictures/javascript-logo.png";
 import htmlLogo from "../Pictures/html5-logo.png";
-import cssLogo from "../Pictures/CSS3-logo.png";
 import bootstrapLogo from "../Pictures/bootstrap-logo.png";
 
 const skills = [

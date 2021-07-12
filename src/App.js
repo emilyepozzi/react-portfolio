@@ -6,8 +6,6 @@ import { Container } from 'reactstrap';
 import About from './Components/Pages/AboutMe';
 import Projects from './Components/Pages/Projects';
 import Contact from './Components/Pages/Contact';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faEnvelope, faCodeBranch } from '@fortawesome/free-solid-svg-icons'
 // import Footer from "./components/Footer";
 
 library.add(faEnvelope, faCodeBranch);
