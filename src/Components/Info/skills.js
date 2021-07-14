@@ -11,49 +11,49 @@ import bootstrapLogo from "../Pictures/bootstrap-logo.png";
 const skills = [
   {
     id: 1,
-    skill: "React.js",
-    src: reactLogo,
-  },
-  {
-    id: 2,
-    skill: "MongoDB",
-    src: mongoDBLogo,
-  },
-  {
-    id: 3,
-    skill: "MySQL",
-    src: mysqlLogo,
-  },
-  {
-    id: 4,
-    skill: "Node.js",
-    src: nodejsLogo,
-  },
-  {
-    id: 5,
-    skill: "Express",
-    src: expressLogo,
-  },
-  {
-    id: 6,
     skill: "JavaScript",
     src: javascriptLogo,
   },
   {
-    id: 7,
+    id: 2,
     skill: "HTML",
     src: htmlLogo,
   },
   {
-    id: 8,
+    id: 3,
     skill: "CSS",
     src: cssLogo,
   },
   {
-    id: 9,
+    id: 4,
     skill: "Bootstrap",
     src: bootstrapLogo,
   },
+  {
+    id: 5,
+    skill: "React.js",
+    src: reactLogo,
+  },
+  {
+    id: 6,
+    skill: "MongoDB",
+    src: mongoDBLogo,
+  },
+  {
+    id: 7,
+    skill: "MySQL",
+    src: mysqlLogo,
+  },
+  {
+    id: 8,
+    skill: "Node.js",
+    src: nodejsLogo,
+  },
+  {
+    id: 9,
+    skill: "Express",
+    src: expressLogo,
+  }
 ];
 
 export default skills;

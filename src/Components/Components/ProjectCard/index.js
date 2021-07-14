@@ -28,7 +28,7 @@ const ProjectCard = (props) => {
                     <CardBody>
                     <CardText className="mt-3"><b>Summary:</b> {props.summary}</CardText>
                     <br />
-                    <CardText><b>Tech Used:</b> {props.techUsed}</CardText>
+                    <CardText><b>Technology Used:</b> {props.techUsed}</CardText>
                     </CardBody>
                     </Col>
                 </Row>
@@ -50,7 +50,7 @@ const ProjectCard = (props) => {
                     <CardText className="m-3"><b>Summary:</b> {props.summary}</CardText>
                 </Row>
                 <Row>
-                    <CardText className="m-3"><b>Tech Used:</b> {props.techUsed}</CardText>
+                    <CardText className="m-3"><b>Technology Used:</b> {props.techUsed}</CardText>
                 </Row>
             </CardBody>
             

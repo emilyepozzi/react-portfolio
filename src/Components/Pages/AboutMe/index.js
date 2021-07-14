@@ -23,7 +23,7 @@ class About extends React.Component {
         <hr className="my-4" />
         <Row className="justify-content-center">
           <Col xs="8">
-            <p className="font-weight-bold">Technical Skills</p>
+            <p className="font-weight-bold">My Technical Skills:</p>
           </Col>
         </Row>
         <Row className="justify-content-center">
