@@ -1,6 +1,6 @@
 import React from "react"
 import { Jumbotron, Row, Col } from 'reactstrap';
-import "/index.css";
+import "./styles.css";
 import skills from "../../Info/skills.js";
 
 class About extends React.Component {
