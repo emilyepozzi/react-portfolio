@@ -1,7 +1,7 @@
 
 # Emily Pozzi's React Portfolio 
 
-[React Portfolio]()
+[React Portfolio](https://emilyepozzi.github.io/react-portfolio/)
 [GitHub Repository](https://github.com/emilyepozzi/react-portfolio)
 
 This is a simple portfolio of my work built with React. 
