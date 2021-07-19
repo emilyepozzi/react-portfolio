@@ -4,7 +4,6 @@ import "./style.css";
 import skills from "../../Info/skills.js";
 
 class About extends React.Component {
-
   state = {
     skills
   };
@@ -38,7 +37,6 @@ class About extends React.Component {
       </Jumbotron>
     );
   }
-
 };
 
 export default About;

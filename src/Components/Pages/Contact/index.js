@@ -32,6 +32,7 @@ const Contact = (props) => {
     <div>
       {isDesktopOrLaptop && (
         <>
+        
           <h3 className="m-5 text-center">Contact Information</h3>
           <hr className="my-4" />
           <Row className="d-flex justify-content-center">
@@ -45,7 +46,7 @@ const Contact = (props) => {
                     href={resume}
                     target="_blank"
                   >
-                    Resume
+                    My Resume
                   </Button>
                 </Row>
               </CardHeader>
@@ -60,7 +61,7 @@ const Contact = (props) => {
                   </Col>
                   <Col className="text-Left m-3">
                     <CardTitle className="lead text-center font-weight-bold">
-                      Software Engineer
+                      Web Developer
                     </CardTitle>
                     <hr className="m-3" />
                     <NavLink href="mailto:emilyepozzi@gmail.com">
@@ -101,10 +102,12 @@ const Contact = (props) => {
                 </Row>
                 <Row className="justify-content-center mt-3">
                   <CardTitle className="lead font-weight-bold">
-                    Software Engineer
+                    Web Developer
                   </CardTitle>
                 </Row>
+
                 <hr />
+
                 <Row>
                   <Col className="text-center">
                     <Button
@@ -113,7 +116,7 @@ const Contact = (props) => {
                       href={resume}
                       target="_blank"
                     >
-                      Resume
+                      My Resume
                     </Button>
                     <NavLink href="mailto:emilyepozzi@gmail.com">
                       <img className="logo" src={emailIcon} alt="Logo" /> :

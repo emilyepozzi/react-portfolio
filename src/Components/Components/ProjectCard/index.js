@@ -1,23 +1,22 @@
 import React from 'react';
+
 import {
     Card, Button, CardHeader, CardFooter, CardBody,
     CardText, Row, Col 
 } from 'reactstrap';
+
 import { useMediaQuery } from 'react-responsive';
-
 const ProjectCard = (props) => {
-
-    const isDesktopOrLaptop = useMediaQuery({
+    const deskOrLapTop = useMediaQuery({
         query: '(min-device-width: 1224px)'
     });
 
     const isTabletOrPhone = useMediaQuery({
         query: '(max-device-width: 1224px)'
     });
-
     return (
         <div>
-        {isDesktopOrLaptop && <>
+        {deskOrLapTop && <>
             <Card className="m-4">
                 <CardHeader tag="h3" className="p-3">{props.projectName}</CardHeader>
                 <Row>
@@ -61,7 +60,6 @@ const ProjectCard = (props) => {
         </Card>
         </>}
         </div>
-    )
-}
+    )}
 
 export default ProjectCard;
